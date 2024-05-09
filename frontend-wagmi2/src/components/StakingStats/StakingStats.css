@@ -1,0 +1,23 @@
+.stats-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 10px 140px;
+}
+
+.stats-container > div {
+    flex: 1;
+}
+
+.stats-container > div > h3 {
+    margin: 10px 0;
+    font-size: 100px;
+    font-weight: 200;
+}
+
+.stats-container > div > p {
+    margin: 5px 0;
+    font-size: 18px;
+    font-weight: 200;
+}
